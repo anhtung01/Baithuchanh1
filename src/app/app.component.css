@@ -1,0 +1,6 @@
+.tabs-content{
+  border: solid 1px gray;
+  border-top: none;
+  min-height: 200px;
+  padding: 10px;
+}

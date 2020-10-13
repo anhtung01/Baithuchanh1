@@ -1,0 +1,26 @@
+<div class="container md-5">
+  <div class="card"></div>
+  <h2>Bài 8:</h2>
+  <div class="row">
+      <div class="col-sm-2">
+          <span>Chiều cao : </span>
+      </div>
+      <div class="col-sm-4">
+          <input type="text"  [(ngModel)]="h">
+      </div>
+
+  </div>
+  <div class="row">
+      <div class="col-sm-2">
+          <span>Diện tích đáy: </span>
+      </div>
+      <div class="col-sm-4">
+          <input type="text"  [(ngModel)]="dt" >
+      </div>
+
+  </div>
+  <div class="row text-center">
+      <button type="button" class="btn btn-primary" (click)="tinh()">Tính</button>
+  </div>
+  <h3>Thể thích hình chóp là: {{kq}}</h3>
+</div>
